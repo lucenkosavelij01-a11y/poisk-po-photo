@@ -1,0 +1,6 @@
+    {
+      "rewrites": [
+        { "source": "/product.json", "destination": "/public/product.json" }
+      ]
+    }
+    
