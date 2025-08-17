@@ -1,1 +1,285 @@
-
+[
+  {
+    "id": "1",
+    "title": "Люстра №1",
+    "description": "люстра круговая 6 дырок, жёлтый свет",
+    "price": "2000₽",
+    "image": "https://i.ibb.co/rG41t6kw/IMG-2043.jpg",
+    "original_image": "https://ibb.co/1f8wnqZm",
+    "url": "http://yuvyuvyuyu.tilda.ws/tproduct/475132987392-lyustra-1",
+    "tags": [
+      "люстра",
+      "жёлтый"
+    ]
+  },
+  {
+    "id": "2",
+    "title": "Люстра №2",
+    "description": "люстра прямоугольная, белый свет",
+    "price": "4000₽",
+    "image": "https://i.ibb.co/rKDr1xxd/IMG-2044.jpg",
+    "original_image": "https://ibb.co/cK4n766Y",
+    "url": "http://yuvyuvyuyu.tilda.ws/tproduct/567648658522-lyustra-2",
+    "tags": [
+      "люстра",
+      "белый"
+    ]
+  },
+  {
+    "id": "3",
+    "title": "Люстра №3",
+    "description": "люстра 5 кругов, золотая, свет жёлтый",
+    "price": "12000₽",
+    "image": "https://i.ibb.co/yc8CWMw0/IMG-2039.jpg",
+    "original_image": "https://ibb.co/C3nyhXkB",
+    "url": "http://yuvyuvyuyu.tilda.ws/tproduct/547477885162-lyustra-3",
+    "tags": [
+      "люстра",
+      "жёлтый"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Люстра прямоугольная, 3 квадрата",
+    "description": "люстра прямоугольная 3 квадрата, свет белый",
+    "price": 7000,
+    "image": "<a href=\"https://ibb.co/fY5DFHGW\"><img src=\"https://i.ibb.co/pv8hwdrT/IMG-2045.png\" alt=\"IMG-2045\" border=\"0\"></a>",
+    "url": "http://yuvyuvyuyu.tilda.ws/tproduct/933121428352-lyustra-pryamougolnaya-3-kvadrata",
+    "tags": ["люстра", "белый"]
+  },
+  {
+    "id": 5,
+    "title": "светильник круглый",
+    "description": "светильник круглый, жёлтый свет",
+    "price": 1500,
+    "image": "<a href=\"https://ibb.co/fV73LYQC\"><img src=\"https://i.ibb.co/BHRhFVwg/IMG-2046.jpg\" alt=\"IMG-2046\" border=\"0\"></a>",
+    "url": "http://yuvyuvyuyu.tilda.ws/tproduct/286755762332-svetilnik-kruglii",
+    "tags": ["светильник", "жёлтый"]
+  },
+  {
+    "id": 6,
+    "title": "люстра прямоугольная",
+    "description": "люстра прямоугольная, чёрная обводка, белый свет",
+    "price": 7000,
+    "image": "<a href=\"https://ibb.co/xtC5d3s8\"><img src=\"https://i.ibb.co/cSgTVxvX/IMG-2049.jpg\" alt=\"IMG-2049\" border=\"0\"></a>",
+    "url": "http://yuvyuvyuyu.tilda.ws/tproduct/853304404502-lyustra-pryamougolnaya",
+    "tags": ["люстра", "белый"]
+  },
+  {
+    "id": 7,
+    "title": "люстра стеклянная, золотая",
+    "description": "люстра стеклянная с золотом, жёлтый свет",
+    "price": 30000,
+    "image": "<a href=\"https://ibb.co/dsGK22RC\"><img src=\"https://i.ibb.co/20gKttTV/IMG-2050.jpg\" alt=\"IMG-2050\" border=\"0\"></a> <a href=\"https://ibb.co/LdKzgg9j\"><img src=\"https://i.ibb.co/23J7MMcV/IMG-2051.jpg\" alt=\"IMG-2051\" border=\"0\"></a>",
+    "url": "http://yuvyuvyuyu.tilda.ws/tproduct/533449501482-lyustra-steklyannaya-zolotaya",
+    "tags": ["люстра", "стеклянная", "жёлтый свет"]
+  },
+  {
+    "id": 8,
+    "title": "люстра стеклянная, золотая",
+    "description": "люстра стеклянная, золотая, жёлтый свет",
+    "price": 35000,
+    "image": "<a href=\"https://ibb.co/99hsgD8R\"><img src=\"https://i.ibb.co/d0tGMTWn/IMG-2052.jpg\" alt=\"IMG-2052\" border=\"0\"></a>",
+    "url": "http://yuvyuvyuyu.tilda.ws/tproduct/173204204472-lyustra-steklyannaya-zolotaya",
+    "tags": ["люстра", "стеклянная", "золотая"]
+  },
+  {
+    "id": 9,
+    "title": "люстра золотая, стеклянная",
+    "description": "люстра золотая, стеклянная, 2 яруса, жёлтый свет",
+    "price": 44000,
+    "image": "<a href=\"https://ibb.co/nMPSkny8\"><img src=\"https://i.ibb.co/F4Ht701q/IMG-2053.jpg\" alt=\"IMG-2053\" border=\"0\"></a>",
+    "url": "http://yuvyuvyuyu.tilda.ws/tproduct/257372395952-lyustra-zolotaya-steklyannaya",
+    "tags": ["люстра", "золотая", "жёлтый"]
+  },
+  {
+    "id": 10,
+    "title": "Люстра стеклянная, круговая",
+    "description": "люстра круговая, стеклянная, с золотом, 3 круга, белый свет",
+    "price": 14000,
+    "image": "<a href=\"https://ibb.co/r2TDQKgw\"><img src=\"https://i.ibb.co/WvqmHNQ2/IMG-2054.jpg\" alt=\"IMG-2054\" border=\"0\"></a>",
+    "url": "http://yuvyuvyuyu.tilda.ws/tproduct/965251277262-lyustra-steklyannaya-krugovaya",
+    "tags": ["люстра", "круговая", "золотая", "стеклянная"]
+  },
+  {
+    "id": 11,
+    "title": "Диван коричневый",
+    "description": "диван коричневый, тканевый, с подушками",
+    "price": 45000,
+    "image": "<a href=\"https://ibb.co/ymTWt8cx\"><img src=\"https://i.ibb.co/p6DJc3Bk/IMG-2055.jpg\" alt=\"IMG-2055\" border=\"0\"></a>",
+    "url": "http://yuvyuvyuyu.tilda.ws/tproduct/581369637402-divan-korichnevii",
+    "tags": ["диван", "коричневый", "тканевый"]
+  },
+  {
+    "id": 12,
+    "title": "Диван тёмно-серый",
+    "description": "диван тёмно-серый, кожаный, со светло серыми бортикам",
+    "price": 38000,
+    "image": "<a href=\"https://ibb.co/yF47FtY9\"><img src=\"https://i.ibb.co/3mRQm2M3/IMG-2056.png\" alt=\"IMG-2056\" border=\"0\"></a>",
+    "url": "http://yuvyuvyuyu.tilda.ws/tproduct/125653294572-divan-tyomno-serii",
+    "tags": ["диван", "тёмно-серый", "кожаный"]
+  },
+  {
+    "id": 13,
+    "title": "диван белый",
+    "description": "диван белый, тканевый, со столиком",
+    "price": 27000,   
+    "image": "<a href=\"https://ibb.co/Q31xQHVW\"><img src=\"https://i.ibb.co/q3P2jg8H/IMG-2057.jpg\" alt=\"IMG-2057\" border=\"0\"></a>",
+    "url": "http://yuvyuvyuyu.tilda.ws/tproduct/879388100462-divan-belii",
+    "tags": ["диван", "белый", "тканевый"]
+  },
+  {
+    "id": 14,
+    "title": "Диван серый",
+    "description": "Диван серый, полосатый, тканевый",
+    "price": 46000,
+    "image": "<a href=\"https://ibb.co/gM4mb0TZ\"><img src=\"https://i.ibb.co/C5Pmpj7K/IMG-2058.png\" alt=\"IMG-2058\" border=\"0\"></a> <a href=\"https://ibb.co/dskPZvxR\"><img src=\"https://i.ibb.co/SDVtSgGz/IMG-2059.png\" alt=\"IMG-2059\" border=\"0\"></a>",
+    "url": "http://yuvyuvyuyu.tilda.ws/tproduct/434107386352-divan-serii",
+    "tags": ["диван", "серый", "тканевый"]
+  },
+  {
+    "id": 15,
+    "title": "Диван белый",
+    "description": "диван белый, со светло-серыми бортиками, со столиками",
+    "price": 20000,
+    "image": "<a href=\"https://ibb.co/rWdt28D\"><img src=\"https://i.ibb.co/B1nP2W0/IMG-2060.png\" alt=\"IMG-2060\" border=\"0\"></a> <a href=\"https://ibb.co/8LVTFMsg\"><img src=\"https://i.ibb.co/0R38Pq2y/IMG-2061.png\" alt=\"IMG-2061\" border=\"0\"></a>",
+    "url": "http://yuvyuvyuyu.tilda.ws/tproduct/147318093752-divan-belii",
+    "tags": ["диван", "белый", "светло-серые бортики"]
+  },
+  {
+    "id": 16,
+    "title": "диван чёрный",
+    "description": "диван чёрный, тканевый",
+    "price": 15000,
+    "image": "<a href=\"https://ibb.co/5hCpt9sX\"><img src=\"https://i.ibb.co/VYbnrNM0/IMG-2075.png\" alt=\"IMG-2075\" border=\"0\"></a>",
+    "url": "http://yuvyuvyuyu.tilda.ws/tproduct/824134684282-divan-chyornii",
+    "tags": ["диван", "чёрный"]
+  },
+  {
+    "id": 17,
+    "title": "диван тёмно-серый",
+    "description": "диван тёмно-серый, с белыми бортиками",
+    "price": 23000,
+    "image": "<a href=\"https://ibb.co/Rp1q0RHV\"><img src=\"https://i.ibb.co/zh1zRqf0/IMG-2076.png\" alt=\"IMG-2076\" border=\"0\"></a>",
+    "url": "http://yuvyuvyuyu.tilda.ws/tproduct/653116535992-divan-tyomno-serii",
+    "tags": ["тёмно-серый", "белые бортики", "тканевый"]
+  },
+  {
+    "id": 18,
+    "title": "диван белый",
+    "description": "диван белый, тканевый, квадратный",
+    "price": 18000,
+    "image": "<a href=\"https://ibb.co/Wv1LzSYF\"><img src=\"https://i.ibb.co/chdj8z7t/IMG-2077.png\" alt=\"IMG-2077\" border=\"0\"></a> <a href=\"https://ibb.co/JwKxYHLw\"><img src=\"https://i.ibb.co/4n7sbpyn/IMG-2078.png\" alt=\"IMG-2078\" border=\"0\"></a>",
+    "url": "http://yuvyuvyuyu.tilda.ws/tproduct/551060981722-divan-belii",
+    "tags": ["диван", "тканевый", "белый"]
+  },
+  {
+    "id": 19,
+    "title": "диван светло серый",
+    "description": "диван светло серый, кожаный",
+    "price": 50000,
+    "image": "<a href=\"https://ibb.co/Fb09j9rV\"><img src=\"https://i.ibb.co/RpB1V1Fy/IMG-2112.jpg\" alt=\"IMG-2112\" border=\"0\"></a>",
+    "url": "http://yuvyuvyuyu.tilda.ws/tproduct/701037019222-divan-svetlo-serii",
+    "tags": ["диван", "светло-серый", "кожаный"]
+  },
+  {
+    "id": 20,
+    "title": "Диван чёрный",
+    "description": "диван чёрный кожаный",
+    "price": 26000,
+    "image": "<a href=\"https://ibb.co/TMBmj6DY\"><img src=\"https://i.ibb.co/XxZS01fj/IMG-2113.jpg\" alt=\"IMG-2113\" border=\"0\"></a>",
+    "url": "http://yuvyuvyuyu.tilda.ws/tproduct/198818007632-divan-chyornii",
+    "tags": ["диван", "чёрный", "кожаный"]
+  }
+[
+  {
+    "id": 21,
+    "title": "стол стеклянный, круглый",
+    "description": "стол стеклянный, с белым основанием",
+    "price": 5000,
+    "image": "<a href=\"https://ibb.co/FbkGpyQ6\"><img src=\"https://i.ibb.co/d0snZVNB/IMG-2063.jpg\" alt=\"IMG-2063\" border=\"0\"></a>",
+    "url": "http://yuvyuvyuyu.tilda.ws/tproduct/133438738382-stol-steklyannii-kruglii",
+    "tags": ["стол", "стеклянный", "круглый"]
+  },
+  {
+    "id": 22,
+    "title": "стол круглый, стеклянный",
+    "description": "стол круглый стеклянный, основание золотое",
+    "price": 4400,
+    "image": "<a href=\"https://ibb.co/hF1rn1CL\"><img src=\"https://i.ibb.co/60JGpJNr/IMG-2065.jpg\" alt=\"IMG-2065\" border=\"0\"></a>",
+    "url": "http://yuvyuvyuyu.tilda.ws/tproduct/257872213412-stol-kruglii-steklyannii",
+    "tags": ["стол", "круглый", "стеклянный"]
+  },
+  {
+    "id": 23,
+    "title": "стол деревянный, 2 круга",
+    "description": "стол деревянный, 2 круга, чёрные ножки и ободок",
+    "price": 6000,
+    "image": "<a href=\"https://ibb.co/XxkLVNZ8\"><img src=\"https://i.ibb.co/tpPK3kMX/IMG-2064.jpg\" alt=\"IMG-2064\" border=\"0\"></a>",
+    "url": "http://yuvyuvyuyu.tilda.ws/tproduct/727559354032-stol-derevyannii-2-kruga",
+    "tags": ["стол", "деревянный", "круглый"]
+  },
+  {
+    "id": 24,
+    "title": "стол круглый, стеклянный",
+    "description": "стол круглый, стеклянный, белое основание, чёрный ободок",
+    "price": 3500,
+    "image": "<a href=\"https://ibb.co/KcywNDmq\"><img src=\"https://i.ibb.co/nqkC3BRc/IMG-2066.jpg\" alt=\"IMG-2066\" border=\"0\"></a>",
+    "url": "http://yuvyuvyuyu.tilda.ws/tproduct/845283752292-stol-kruglii-steklyannii",
+    "tags": ["стол", "стеклянный", "круглый", "белое основание"]
+  },
+  {
+    "id": 25,
+    "title": "стол стеклянный квадратный",
+    "description": "стол стеклянный, квадратный",
+    "price": 4400,
+    "image": "<a href=\"https://ibb.co/2710Wkbc\"><img src=\"https://i.ibb.co/qM3L7rZm/IMG-2067.jpg\" alt=\"IMG-2067\" border=\"0\"></a>",
+    "url": "http://yuvyuvyuyu.tilda.ws/tproduct/761833140512-stol-steklyannii-kvadratnii",
+    "tags": ["стол", "стеклянный", "квадратный"]
+  },
+  {
+    "id": 26,
+    "title": "стол круглый стеклянный",
+    "description": "стол круглый стеклянный, чёрное основание",
+    "price": 12000,
+    "image": "<a href=\"https://ibb.co/SDdX6tMS\"><img src=\"https://i.ibb.co/7xRJSnZh/IMG-2068.jpg\" alt=\"IMG-2068\" border=\"0\"></a>",
+    "url": "http://yuvyuvyuyu.tilda.ws/tproduct/488887690272-stol-kruglii-steklyannii",
+    "tags": ["стол", "круглый", "стеклянный", "чёрное основание"]
+  },
+  {
+    "id": 27,
+    "title": "стол круглый мраморный",
+    "description": "стол круглый мраморный, серо-черное основание, 2 круга",
+    "price": 12500,
+    "image": "<a href=\"https://ibb.co/TxS0gQBb\"><img src=\"https://i.ibb.co/NdPNy06m/IMG-2069.jpg\" alt=\"IMG-2069\" border=\"0\"></a> <a href=\"https://ibb.co/KzX3KXJr\"><img src=\"https://i.ibb.co/vvHKXHSj/IMG-2070.jpg\" alt=\"IMG-2070\" border=\"0\"></a>",
+    "url": "http://yuvyuvyuyu.tilda.ws/tproduct/123573590852-stol-kruglii-mramornii",
+    "tags": ["стол", "2 круга", "круглый", "мраморный"]
+  },
+  {
+    "id": 28,
+    "title": "Стол мраморный квадратный",
+    "description": "стол мраморный, квадратный, железные ножки",
+    "price": 9000,
+    "image": "<a href=\"https://ibb.co/KtcZWDL\"><img src=\"https://i.ibb.co/XnfBtD3/IMG-2071.jpg\" alt=\"IMG-2071\" border=\"0\"></a>",
+    "url": "http://yuvyuvyuyu.tilda.ws/tproduct/930179049762-stol-mramornii-kvadratnii",
+    "tags": ["стол", "квадратный", "мраморный"]
+  },
+  {
+    "id": 29,
+    "title": "стол овальный + круглый, мраморный",
+    "description": "стол овальный + круглый, мраморный, серо-чёрное основание",
+    "price": 12000,
+    "image": "<a href=\"https://ibb.co/39PVnj0M\"><img src=\"https://i.ibb.co/21pRTCjs/IMG-2072.jpg\" alt=\"IMG-2072\" border=\"0\"></a> <a href=\"https://ibb.co/tpRFg4wB\"><img src=\"https://i.ibb.co/Zz975VRd/IMG-2073.jpg\" alt=\"IMG-2073\" border=\"0\"></a>",
+        "url": "http://yuvyuvyuyu.tilda.ws/tproduct/267865295122-stol-ovalnii-kruglii-mramornii",
+    "tags": ["стол", "мраморный", "овал+круг"]
+  },
+  {
+    "id": 30,
+    "title": "стол 2 круга, мраморный + стеклянный",
+    "description": "стол 2 круга, мраморный + стеклянный, чёрное и серое основание",
+    "price": 7000,
+    "image": "<a href=\"https://ibb.co/GfgTLB1p\"><img src=\"https://i.ibb.co/TDzLSpn2/IMG-2074.jpg\" alt=\"IMG-2074\" border=\"0\"></a>",
+    "url": "http://yuvyuvyuyu.tilda.ws/tproduct/732642700552-stol-2-kruga-mramornii-steklyannii",
+    "tags": ["стол", "2 круга", "мраморный + стеклянный"]
+  }
+]
