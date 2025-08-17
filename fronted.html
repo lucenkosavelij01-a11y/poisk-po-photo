@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>API search фронтенд</title>
+  <style>
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; margin: 24px; }
+    .row { display: flex; gap: 16px; flex-wrap: wrap; }
+    .card { border: 1px solid #ddd; border-radius: 8px; padding: 16px; max-width: 720px; width: 100%; }
+    label { display: block; margin: 8px 0 4px; font-weight: 600; }
+    input[type="text"], input[type="url"] { width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 6px; }
+    button { padding: 8px 14px; border: 0; background: #111; color: #fff; border-radius: 6px; cursor: pointer; }
+    button.secondary { background: #555; }
+    .hint { color: #666; font-size: 13px; }
+    .preview { margin-top: 8px; max-height: 240px; display: block; }
+    pre { background: #0b1020; color: #d7eaff; padding: 12px; border-radius: 8px; overflow: auto; }
+    .muted { color: #888; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>API search демо</h1>
+    <p class="hint">Эта страница отправляет запросы на эндпоинт /api/search. Если бэкенд на другом домене, поменяй переменную endpoint ниже.</p>
+
+    <div class="row">
+      <div style="flex:1 1 320px">
+        <label>URL изображения</label>
+        <input id="imageUrl" type="url" placeholder="https://example.com/pic.jpg" />
+        <div class="hint">Можно оставить пустым и загрузить файл ниже</div>
+
+        <label>Файл изображения</label>
+        <input id="imageFile" type="file" accept="image/*" />
+        <img id="preview" class="preview" alt="" />
+
+        <label>Строка запроса q</label>
+        <input id="q" type="text" placeholder="например cat" />
+
+        <div style="margin-top:12px; display:flex; gap:8px;">
+          <button id="btnPost">Отправить POST</button>
+          <button id="btnGet" class="secondary">Проверка GET</button>
+        </div>
+        <div id="status" class="hint" style="margin-top:8px;"></div>
+      </div>
+
+      <div style="flex:1 1 320px">
+        <label>Ответ сервера</label>
+        <pre id="output" class="muted">Нет данных</pre>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // Поменяй на полный URL, если бэкенд на другом хосте
+    const endpoint = '/api/search';
+
+    const el = (id) => document.getElementById(id);
+    const imageUrl = el('imageUrl');
+    const imageFile = el('imageFile');
+    const qInput = el('q');
+    const preview = el('preview');
+    const output = el('output');
+    const statusEl = el('status');
+    const btnPost = el('btnPost');
+    const btnGet = el('btnGet');
+
+    function setStatus(txt) { statusEl.textContent = txt || ''; }
+    function showOutput(data) {
+      output.classList.remove('muted');
+      output.textContent = typeof data === 'string' ? data : JSON.stringify(data, null, 2);
+    }
+    function showError(err) {
+      output.classList.remove('muted');
+      output.textContent = 'Ошибка\n' + (err?.message || err || 'Unknown');
+    }
+
+    function toBase64(file) {
+      return new Promise((resolve, reject) => {
+        const r = new FileReader();
+        r.onload = () => resolve(r.result);
+        r.onerror = () => reject(r.error || new Error('File read error'));
+        r.readAsDataURL(file);
+      });
+    }
+
+    // Превью
+    imageUrl.addEventListener('input', () => {
+      const url = imageUrl.value.trim();
+      preview.src = url || '';
+      preview.style.display = url ? 'block' : 'none';
+    });
+    imageFile.addEventListener('change', async () => {
+      const f = imageFile.files?.[0];
+      if (!f) { preview.removeAttribute('src'); preview.style.display = 'none'; return; }
+      preview.src = URL.createObjectURL(f);
+      preview.style.display = 'block';
+    });
+
+    // GET проверка
+    btnGet.addEventListener('click', async () => {
+      setStatus('Выполняю GET...');
+      try {
+        const res = await fetch(endpoint);
+        const text = await res.text();
+        showOutput(text);
+      } catch (e) { showError(e); }
+            finally { setStatus(''); }
+    });
+
+    // POST отправка
+    btnPost.addEventListener('click', async () => {
+      setStatus('Готовлю данные...');
+      try {
+        let image = imageUrl.value.trim();
+        const file = imageFile.files?.[0];
+        if (file) image = await toBase64(file);
+
+        if (!image) {
+          alert('Укажи URL изображения или выбери файл');
+          setStatus('');
+          return;
+        }
+
+        const body = { image };
+        const q = qInput.value.trim();
+        if (q) body.q = q;
+
+        setStatus('Отправляю POST...');
+        const res = await fetch(endpoint, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(body),
+        });
+
+        const contentType = res.headers.get('content-type') || '';
+        if (!res.ok) {
+          const errText = contentType.includes('application/json') ? JSON.stringify(await res.json(), null, 2) : await res.text();
+          throw new Error(`HTTP ${res.status}\n${errText}`);
+        }
+
+        const data = contentType.includes('application/json') ? await res.json() : await res.text();
+        showOutput(data);
+      } catch (e) { showError(e); }
+      finally { setStatus(''); }
+    });
+  </script>
+</body>
+</html>
